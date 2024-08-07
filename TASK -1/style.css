@@ -14,7 +14,7 @@ html,body{
 
 
 .main{
-    min-height: 0px;
+    min-height: 100vh;
     width: 100%;
     color: white;
     flex-direction: column;
@@ -146,9 +146,8 @@ nav a:hover{
 
 #forquotes2{
     position: relative;
-    min-height: 50px;
+    min-height: 0px;
     width: 100%;
-    /* background-image: linear-gradient(to right,#74c69d,#52b788,#40916c,#2d6a4f,#1b4332); */
     display: flex;
     align-items: center;
     justify-content: center;
