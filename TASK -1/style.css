@@ -112,7 +112,6 @@ nav{
     position: fixed;
     height: 10vh;
     width: 100%;
-    /* background-color: red; */
     display: flex;
     align-items: center;
     justify-content: flex-end;

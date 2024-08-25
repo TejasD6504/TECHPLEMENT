@@ -10,6 +10,7 @@ sbtn.addEventListener("click",async () => {
 
     // console.log("hello");
     
+    search.innerHTML = '';
     let datamain = await searchQuotebyAuthor(inp.value);
     console.log(datamain);
     //   console.log(datamain.results[0].content);
@@ -34,7 +35,6 @@ sbtn.addEventListener("click",async () => {
     });
   
     const data = await response.json();
-    // console.log(data.results[0].content);
     return data;
     // console.log(data.author);
     // return data;
